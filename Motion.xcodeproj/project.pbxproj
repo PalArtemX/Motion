@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		F869365827A2B1AC00842519 /* MotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869365727A2B1AC00842519 /* MotionApp.swift */; };
-		F869365A27A2B1AC00842519 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869365927A2B1AC00842519 /* ContentView.swift */; };
 		F869365C27A2B1AD00842519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F869365B27A2B1AD00842519 /* Assets.xcassets */; };
 		F869365F27A2B1AD00842519 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F869365E27A2B1AD00842519 /* Preview Assets.xcassets */; };
 		F869366927A2B3E700842519 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869366827A2B3E700842519 /* Particle.swift */; };
 		F869366B27A2B56100842519 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869366A27A2B56100842519 /* ParticleSystem.swift */; };
+		F869366D27A2B6A000842519 /* MotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869366C27A2B6A000842519 /* MotionView.swift */; };
+		F869366F27A2BF8000842519 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869366E27A2BF8000842519 /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F869365427A2B1AC00842519 /* Motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F869365727A2B1AC00842519 /* MotionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionApp.swift; sourceTree = "<group>"; };
-		F869365927A2B1AC00842519 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F869365B27A2B1AD00842519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F869365E27A2B1AD00842519 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F869366827A2B3E700842519 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		F869366A27A2B56100842519 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
+		F869366C27A2B6A000842519 /* MotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionView.swift; sourceTree = "<group>"; };
+		F869366E27A2BF8000842519 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				F869365727A2B1AC00842519 /* MotionApp.swift */,
-				F869365927A2B1AC00842519 /* ContentView.swift */,
 				F869366727A2B1D700842519 /* Views */,
-				F869366627A2B1CF00842519 /* ViewModels */,
 				F869366527A2B1B900842519 /* Models */,
 				F869366A27A2B56100842519 /* ParticleSystem.swift */,
+				F869366E27A2BF8000842519 /* MotionManager.swift */,
 				F869365B27A2B1AD00842519 /* Assets.xcassets */,
 				F869365D27A2B1AD00842519 /* Preview Content */,
 			);
@@ -83,16 +84,10 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F869366627A2B1CF00842519 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		F869366727A2B1D700842519 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F869366C27A2B6A000842519 /* MotionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,7 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F869366B27A2B56100842519 /* ParticleSystem.swift in Sources */,
-				F869365A27A2B1AC00842519 /* ContentView.swift in Sources */,
+				F869366F27A2BF8000842519 /* MotionManager.swift in Sources */,
+				F869366D27A2B6A000842519 /* MotionView.swift in Sources */,
 				F869366927A2B3E700842519 /* Particle.swift in Sources */,
 				F869365827A2B1AC00842519 /* MotionApp.swift in Sources */,
 			);
